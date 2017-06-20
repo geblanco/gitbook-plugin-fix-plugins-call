@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# custom test scripts
+fixToExport.js
+fixToImport.js
