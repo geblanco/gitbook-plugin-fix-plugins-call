@@ -1,18 +1,27 @@
 {
-    "name": "gitbook-plugin-fix-plugins-call",
-    "description": "Fix cites plugin for GitBook",
-    "main": "index.js",
-    "version": "0.0.1",
-    "engines": {
-        "gitbook": "*"
-    },
-    "homepage": "https://github.com/GitbookIO/plugin",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/plugin.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/plugin/issues"
+  "name": "gitbook-plugin-fix-plugins-call",
+  "description": "Fix cites plugin for GitBook",
+  "main": "index.js",
+  "version": "0.0.2",
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/m0n0l0c0/gitbook-plugin-fix-plugins-call",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m0n0l0c0/gitbook-plugin-fix-plugins-call.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0n0l0c0/gitbook-plugin-fix-plugins-call/issues"
+  },
+  "gitbook": {
+    "properties": {
+      "plugins": {
+        "type": "array",
+        "description": "the plugins to fix calls to",
+        "required": true
+      }
     }
+  }
 }
