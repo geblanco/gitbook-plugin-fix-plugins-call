@@ -2,7 +2,7 @@
 
 function composeRegex(cfg){
 
-	const regStr = '\\`(\\{\\{\\s?[^|]+\\s?\\|\\s?' + cfg.join('|') + '\\s?\\}\\})\\`'
+	const regStr = '\\`(\\{\\{\\s?[^|]+\\s?\\|\\s?(?:' + cfg.join('|') + ')\\s?\\}\\})\\`'
 	return new RegExp(regStr, 'gi')
 }
 
